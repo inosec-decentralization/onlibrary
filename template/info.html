@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Search.pdf</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+        <style>
+            body {
+              background-image: url("images/bg7.gif");
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="./index.html">Home🏡</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./update.html">Updates</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                <a href="index.html" class="hero-bun">Go Back</a>
+                <h4>Nmaste everyone 🙏🙏<br>Hope you all are doing good in your life..</h4><br>
+                <h4>We have tried to upload everything that is possible in our hand,<br> Now Keep in mind-<br>Whenever you visit to any page and if you don't find first one worthy move to next there are hundred off</h4>
+                <br>
+                <img src="images/im.gif" alt="">
+                <br><br>
+                <h3><i>Anything you found missing then report us here, we will try to include that also-</i></h3>
+                <div class="search-container">
+                    <form action="">
+                      <input type="text" placeholder="✍Write... missing content" name="post" id="name">
+                      <button type="submit" onclick="wr();"><h3><b>POST📮</b></h3></button>
+                    </form>
+                    <div class="streams">
+                        <h2>BE THE BEST 🙇</h2><br><br><br><br><br>
+                        </div>
+                </div>
+            </div>
+        <script>
+            function wr() {
+                let inputVal = document.getElementById("name").value;
+                let notice = "request '" + inputVal + "'\n"
+                const fs = require('fs')
+                fs.writeFile('submt.txt', inputVal, (err) => {
+                    if (err) throw err;
+                })
+            }
+        </script>
+    </body>
+</html>

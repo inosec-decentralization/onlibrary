@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Search.pdf</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+        <style>
+            body {
+              background-image: url("images/bg7.gif");
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="./index.html">Home🏡</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./update.html">Updates</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                 <h1>Learn for free 📚</h1>
+                 <h3>First visit here</h3>
+                 <a href="info.html" class="hero-bun">must know</a>
+                <h3><i>Topics are given below 👇</i></h3>
+            </div>
+        </section>
+        <section class="streams">
+            <h2>
+                Have a look
+            </h2>
+            <div class="back">
+                <a href="encylopediao.html" class="hero-bin">encyclopedia</a>
+            </div>
+            <div class="back">
+                <a href="physics book.html" class="hero-bin">physics</a>
+            </div>
+            <div class="back">
+                <a href="chemistry book.html" class="hero-bin">chemistry</a>
+            </div>
+            <div class="back">
+                <a href="biology book.html" class="hero-bin">biology</a>
+            </div>
+            <div class="back">
+                <a href="astronomy.html" class="hero-bin">astronomy</a>
+            </div>
+            <div class="back">
+                <a href="india history.html" class="hero-bin">Indian history</a>
+            </div>
+            <div class="back">
+                <a href="econmics book.html" class="hero-bin">economics</a>
+            </div>
+            <div class="back">
+                <a href="business.html" class="hero-bin">business</a>
+            </div>
+            <div class="back">
+                <a href="biographyo.html" class="hero-bin">biography</a>
+            </div>
+            <div class="back">
+                <a href="technology.html" class="hero-bin">technology</a>
+            </div>
+            <div class="back">
+                <a href="programmingo.html" class="hero-bin">programming</a>
+            </div>
+            <div class="back">
+                <a href="artificial intelligency.html" class="hero-bin">Artificial Inteligency</a>
+            </div>
+            <div class="back">
+                <a href="NDA preperation.html" class="hero-bin">NDA</a>
+            </div>
+            <div class="back">
+                <a href="https://ncert.nic.in/pdf/publication/otherpublications/veergatha.pdf" class="hero-bin">Param Vir Chakra</a>
+            </div>
+            <div class="back">
+                <a href="UPSC preperation.html" class="hero-bin">UPSC</a>
+            </div>
+            <div class="back">
+                <a href="enviromental book.html" class="hero-bin">enviroment</a>
+            </div>
+            <div class="back">
+                <a href="climate change.html" class="hero-bin">Climate Change</a>
+            </div>
+            <div class="back">
+                <a href="defence.html" class="hero-bin">defence</a>
+            </div>
+            <div class="back">
+                <a href="nuclear energy.html" class="hero-bin">Nuclear Energy</a>
+            </div>
+            <div class="back">
+                <a href="mars.html" class="hero-bin">Mars Mission</a>
+            </div>
+            <div class="back">
+                <a href="cyber security.html" class="hero-bin">Cyber Security</a>
+            </div>
+            <div class="back">
+                <a href="enginerringo.html" class="hero-bin">enginerring</a>
+            </div>
+            <div class="back">
+                <a href="spritual knowledge.html" class="hero-bin">Spritual Knowledge</a>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <div class="back">
+            <button onclick="topFunction()" class="hero-bun" id="myBtn" title="Move to top">Scroll up</button>
+        </div>
+        <section class="fotter">
+            <h5>CopyRight 2021<br><br>INOSEC</h5>
+        </section>
+        <script>
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+        <script>
+            function wr() {
+                let inputVal = document.getElementById("name").value;
+                let notice = "request '" + inputVal + "'\n"
+                const fs = require('fs')
+                fs.writeFile('submt.txt', inputVal, (err) => {
+                    if (err) throw err;
+                })
+            }
+        </script>
+    </body>
+</html>
