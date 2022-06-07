@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<section>
+<form method="POST" class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+      <div class="searchbar">
+        <input class="search_input" type="text" id="content" name="content" placeholder="Search...">
+        <a href="/search" class="search_icon"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+</form> 
+<br>
+  <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Already Indexed</th>
+        </tr>
+      </thead>
+      {% for item in index %}
+      {% set link = '/result/keyword=' + item[0] + ',indx=0'%}
+      <tbody>
+        <tr>
+          <td><a href='{{link}}'>{{item[0]}}</a></td>
+        </tr>   
+      </tbody>
+      {% endfor %}
+    </table>
+</section>
+
+{% endblock body %}
