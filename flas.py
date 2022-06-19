@@ -1,9 +1,9 @@
 
 from flask import Flask, render_template, redirect, url_for, request, jsonify
 from foundation import search, get_db
-#import logging
+import logging
 
-'''
+
 try:
     file_log = open('cloud_chain/api_/web.log', 'r').close()
 except:
@@ -16,7 +16,7 @@ logging.basicConfig(filename="cloud_chain/api_/web.log",
 logger = logging.getLogger()
 logger.info("Started the web API")
 
-'''
+
 
 app = Flask(__name__, static_folder='static')
 
