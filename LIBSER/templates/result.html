@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<section>
+    <div class="list-type3">
+        <ol>
+            {% for item_no in range(turn_no) %}
+            <li><a href="{[link[item_no]}]"></a>{{data[item_no]}}</li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>
+
+{% endblock body %}
