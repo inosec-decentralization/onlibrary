@@ -1,5 +1,5 @@
 
-from nltk.tokenize import word_tokenize, sent_tokenize, RegexpTokenizer
+from nltk.tokenize import RegexpTokenizer
 import random
 #from json import dumps
 
