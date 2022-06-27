@@ -7,37 +7,4 @@ NEW UPDATE IS GOING ON
 visit - http://openlib.iceiy.com/?i=1
 
 
-As many subjects cover in it-
-
-- Encyclopedia
-- Physics
-- Chemistry
-- Biology
-- Astrnomy
-- Indian History
-- Economics
-- Business
-- Biography
-  - Wings of fire 
-  - A Soilder 
-  - E=mc^2 
-  - Steve Jobs 
-  - Unbroken WorldWar2 
-  - Marie Curie 
-  - Bhagat Sing's Jail Notebook
-- Technology
-- Programming
-  ~ covered all the popular programming languages
-- Aritifial Intelleginecy
-- NDA
-- Param Vir Chakra (a book)
-- UPSC
-- Enviroment
-- Climate Change
-- Defence
-- Nuclear Energy
-- Mars Mission
-- Cyber Security
-- Mars Mission
-
------------------------------------------------------------
+## Thank you
