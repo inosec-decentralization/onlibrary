@@ -1,10 +1,13 @@
 # openlib
 
-This is an educational website that is hosted on free web server where we had tried to cover all the popular subjects and uploaded all the pdf that are online available on the differnt websites 
+This is an educational website that is hosted on free cloud service basically made to search for any content in the form of "pdf"
 
-NEW UPDATE IS GOING ON
+It consists of web scrapers which scrap the the data from few websites and search engine and display the all content together to the user
 
-visit - http://openlib.iceiy.com/?i=1
+Note ~ New updates are going on
 
+Visit -  
+
+    https://libyser.herokuapp.com/
 
 ## Thank you
